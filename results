@@ -1,0 +1,62 @@
+Running with tcmalloc
+Page size:     4096, allocate threads:        1, deallocate threads:        1, memory:          2 GB
+                      tcmalloc cycles 12415054259
+Page size:     4096, allocate threads:        1, deallocate threads:        2, memory:          2 GB
+                      tcmalloc cycles 18230149771
+Page size:     4096, allocate threads:        1, deallocate threads:        4, memory:          2 GB
+                      tcmalloc cycles 19485909341
+Page size:     4096, allocate threads:        2, deallocate threads:        1, memory:          1 GB
+                      tcmalloc cycles 6467554785
+Page size:     4096, allocate threads:        2, deallocate threads:        2, memory:          1 GB
+                      tcmalloc cycles 10017058315
+Page size:     4096, allocate threads:        2, deallocate threads:        4, memory:          1 GB
+                      tcmalloc cycles 11405896545
+Page size:     4096, allocate threads:        4, deallocate threads:        1, memory:          0 GB
+                      tcmalloc cycles 3156887011
+Page size:     4096, allocate threads:        4, deallocate threads:        2, memory:          0 GB
+                      tcmalloc cycles 4880824409
+Page size:     4096, allocate threads:        4, deallocate threads:        4, memory:          0 GB
+                      tcmalloc cycles 8607681024
+Page size:     4096, allocate threads:        8, deallocate threads:        1, memory:          0 GB
+                      tcmalloc cycles 2034686977
+Page size:     4096, allocate threads:        8, deallocate threads:        2, memory:          0 GB
+                      tcmalloc cycles 2984574921
+Page size:     4096, allocate threads:        8, deallocate threads:        4, memory:          0 GB
+                      tcmalloc cycles 3423432256
+Page size:     4096, allocate threads:       16, deallocate threads:        1, memory:          0 GB
+                      tcmalloc cycles 1021489264
+Page size:     4096, allocate threads:       16, deallocate threads:        2, memory:          0 GB
+                      tcmalloc cycles 1112730850
+Page size:     4096, allocate threads:       16, deallocate threads:        4, memory:          0 GB
+                      tcmalloc cycles 1385154458
+Running with CephMemoryPoolAllocator
+Page size:     4096, allocate threads:        1, deallocate threads:        1, memory:          2 GB
+       CephMemoryPoolAllocator cycles 12193515233
+Page size:     4096, allocate threads:        1, deallocate threads:        2, memory:          2 GB
+       CephMemoryPoolAllocator cycles 10624988239
+Page size:     4096, allocate threads:        1, deallocate threads:        4, memory:          2 GB
+       CephMemoryPoolAllocator cycles 10697148114
+Page size:     4096, allocate threads:        2, deallocate threads:        1, memory:          1 GB
+       CephMemoryPoolAllocator cycles 4466545869
+Page size:     4096, allocate threads:        2, deallocate threads:        2, memory:          1 GB
+       CephMemoryPoolAllocator cycles 5294229495
+Page size:     4096, allocate threads:        2, deallocate threads:        4, memory:          1 GB
+       CephMemoryPoolAllocator cycles 5304587897
+Page size:     4096, allocate threads:        4, deallocate threads:        1, memory:          0 GB
+       CephMemoryPoolAllocator cycles 2025027857
+Page size:     4096, allocate threads:        4, deallocate threads:        2, memory:          0 GB
+       CephMemoryPoolAllocator cycles 2277224106
+Page size:     4096, allocate threads:        4, deallocate threads:        4, memory:          0 GB
+       CephMemoryPoolAllocator cycles 2606306722
+Page size:     4096, allocate threads:        8, deallocate threads:        1, memory:          0 GB
+       CephMemoryPoolAllocator cycles 1048548193
+Page size:     4096, allocate threads:        8, deallocate threads:        2, memory:          0 GB
+       CephMemoryPoolAllocator cycles 1158844162
+Page size:     4096, allocate threads:        8, deallocate threads:        4, memory:          0 GB
+       CephMemoryPoolAllocator cycles 1296899160
+Page size:     4096, allocate threads:       16, deallocate threads:        1, memory:          0 GB
+       CephMemoryPoolAllocator cycles 504719183
+Page size:     4096, allocate threads:       16, deallocate threads:        2, memory:          0 GB
+       CephMemoryPoolAllocator cycles 551303269
+Page size:     4096, allocate threads:       16, deallocate threads:        4, memory:          0 GB
+       CephMemoryPoolAllocator cycles 595292844
